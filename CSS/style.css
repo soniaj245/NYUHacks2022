@@ -1,5 +1,5 @@
 body{
-    background-color: #e9edc9;
+    background-color: #E0FBFC;
     color: #555;    
     font-family: 'Karla', sans-serif;
     font-size: 16px;
@@ -18,7 +18,7 @@ body{
     margin-bottom: 100px;
     text-align: center;
     padding-top: 250px;
-    padding-bottom: 200px;
+    padding-bottom: 250px;
 }
 
 #showcase h1{
@@ -37,34 +37,72 @@ body{
 }
 
 #lower_showcase{
-    background-color: #FEFAE0;
+    background-color: #EE6C4D;
     min-height: 500px;
     padding-top: 50px;
-    padding-bottom: 150px;
+    padding-bottom: 100px;
     margin-right: 0px;
 }
 
 #lower_showcase h2{
-    color: black;
+    color: white;
     text-align: justify;
-    line-height: 2em;
-    padding-top: 20px;
+    line-height: 1.7em;
+    padding-top: 30px;
     padding-left: 60px;
     padding-right: 750px;
 }
 
-#lower_showcase button{
-    background-color: #D4A373;
-    border: none;
-    color: #FEFAE0;
-    padding: 20px 60px;
-    margin-top: 40px;
-    margin-left: 270px;
-    font-size: 20px;
-    border-radius: 4px;
-}
-
 #lower_showcase img{
     padding-right: 100px;
-    padding-top: 0px;
+    padding-top: 20px;
+}
+
+#factune{
+    background-color: #FFFDD0;
+    min-height: 500px;
+    padding-top: 500px;
+    padding-bottom: 500px;
+    margin-right: 0px;
+}
+
+#facetune h2{
+    padding-top: 20px;
+    padding-right: 370px;
+    text-align: center;
+}
+
+.imageBox {
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    position: relative;
+    float: left;
+  }
+  
+.imageBox .hoverImg {
+    padding-left: 300px;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+  }
+  
+.imageBox:hover .hoverImg {
+    display: block;
+  }
+
+#facetune video{
+    padding-top: 75px;
+    padding-left: 100px;
+}
+
+#facetune h3{
+    text-align: justify;
+    line-height: 1.5em;;
+    padding-top: 10px;
+    padding-left: 850px;
+    padding-right: 170px;
 }
